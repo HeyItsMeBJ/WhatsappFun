@@ -1,0 +1,313 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <title>Whats chat section app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="nav">
+            <div id="im">
+                WhatsApp</div>
+
+            <ion-icon class="icon" name="camera-outline"></ion-icon>
+            <ion-icon class="icon2" name="search-outline"></ion-icon>
+            <div class="icon3">
+                <ion-icon name="options-outline"></ion-icon>
+                <ul>
+                    <li>New group</li>
+                    <li>New broadcast</li>
+                    <li>Linked devices</li>
+                    <li>Starred message</li>
+                    <li>Payments</li>
+                    <li>Settings</li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        <div id="nav2">
+            <div id="chat">Chats</div>
+            <div>Status</div>
+            <div>Calls</div>
+        </div>
+    </div>
+    <!-- <div id="box"> <ion-icon  name="chatbox-ellipses"></ion-icon></div> -->
+    <ol>
+
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="cha">
+                <div class="note">Akrati</div>
+                <div class="hi">HI mam</div>
+            </div>
+
+
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">Hardeep</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">Anmol</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">Deepak</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">Notes Sem 4th.</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">Harsh</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">Hemant</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">user1</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">user2</div>
+            <div class="time">2:24pm</div>
+        </li>
+        <li class="list">
+            <ion-icon name="person-circle"></ion-icon>
+            <div class="note">user3</div>
+            <div class="time">2:24pm</div>
+        </li>
+    </ol>
+    <div id="bott">Created by Bhupesh Jain</div>
+
+<style>
+  body {
+    margin: 0px;
+}
+
+#main {
+    position: relative;
+}
+
+#nav {
+    display: flex;
+    background-color: rgb(5, 88, 9);
+    flex-direction: row;
+    font-size: large;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* justify-content: space-between; */
+    font-weight: 200;
+    font-style: normal;
+    /* position: relative; */
+
+}
+
+#im {
+    padding-left: 10px;
+}
+
+.icon {
+    margin-left: auto;
+    --ionicon-stroke-width: 40px;
+}
+
+.icon2 {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    --ionicon-stroke-width: 40px;
+
+}
+
+.icon3 {
+    margin-right: 10px;
+    --ionicon-stroke-width: 40px;
+
+}
+
+.icon3 ul {
+    /* text-decoration: none; */
+    display: none;
+    list-style-type: none;
+
+}
+
+.icon3 ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: 500; */
+
+}
+
+.icon3:hover {
+    color: rgb(102, 158, 107);
+}
+
+.icon3:hover ul {
+    display: block;
+    position: absolute;
+    margin-top: 3px;
+    margin-right: 3px;
+    right: 0px;
+    top: 0px;
+    color: black;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 2%;
+box-shadow: -3px 3px 10px rgba(211, 211, 211, 0.534);
+}
+
+
+
+#nav2 {
+    color: white;
+    display: flex;
+    height: 35px;
+    padding-top: 10px;
+    background-color: rgb(5, 88, 9);
+    flex-direction: row;
+
+    justify-content: space-around;
+
+
+
+
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    /* position: relative; */
+    /* margin-top: 91px; */
+}
+
+.list {
+
+    display: flex;
+
+    padding-top: 10px;
+
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.list ion-icon {
+    padding-left: 10px;
+    color: rgb(187, 186, 186);
+    font-size: 48px;
+
+
+}
+
+.time {
+    margin-left: auto;
+    margin-top: 5px;
+    padding-right: 10px;
+    font-size: small;
+    color: black;
+
+
+}
+
+.note {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 605;
+    color: black;
+}
+
+.hi {
+    padding-left: 20px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: rgb(70, 71, 71);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#bott {
+    height: 20px;
+    background-color: rgb(5, 88, 9);
+    color: white;
+    font-size: x-small;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#box {
+    color: rgb(255, 255, 255);
+    position: absolute;
+
+
+    bottom: 20px;
+    margin: 0 auto;
+    font-size: 32px;
+    padding-top: 5px;
+    padding-left: 8px;
+    background-color: rgb(44, 184, 39);
+    width: 40px;
+    height: 35px;
+
+}
+
+
+#chat {
+    border-bottom: 3px solid white;
+
+}
+
+@media (min-width:450px) {
+    body {
+        max-width: 450px;
+        margin: 0 auto;
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+
+
+        background-color: rgba(5, 88, 9);
+
+    }
+
+
+
+
+
+}
+</style>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
